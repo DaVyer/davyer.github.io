@@ -9,8 +9,21 @@ h1{
     text-align: center;
 }
 
+span{
+  font-size: 1.5em;
+  font-family: oblique;
+  font-weight: bold;
+
+}
+
+.About{
+  padding:30px;
+  font-size: 1.3em;
+  font-family: oblique;
+}
+
 p{
-    text-align: center;
+    position: relative;
 }
 :root{
     --hauteur-menu: 60px;
@@ -39,7 +52,7 @@ p{
   nav ul {
     list-style-type: none;
   }
-  
+
   nav > ul > li {
     background-color: #4e4e4e;
     position: relative;
@@ -89,7 +102,7 @@ p{
       transform: rotate(90deg);
     }
   }
-  
+
   .sous-menu {
     margin-top: var(--hauteur-menu);
     width: 100%;
@@ -135,3 +148,8 @@ p{
   .sous-menu > li:hover > a {
     color: white;
   }
+
+.li{
+  padding-left: 60px;
+  font-family: oblique;
+}
